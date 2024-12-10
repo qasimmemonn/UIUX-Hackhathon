@@ -17,6 +17,7 @@ const ProductCard = ({ image, name, category, price }:any) => {
         <h3 className="text-sm font-medium text-gray-700">{name}</h3>
         <p className="text-xs text-gray-500 mt-1">{category}</p>
         <p className="text-sm font-bold text-gray-900 mt-2">₹ {price}</p>
+  
       </div>
     </div>
   );
